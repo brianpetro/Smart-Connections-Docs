@@ -1,4 +1,5 @@
 ## Smart Connections Obsidian plugin
+- [[Help debug Smart Connections issues]]
 ### Embedding processing
 #### Was it working previously?
 Try using the legacy version of HuggingFace Transformers. Turn on this setting in the Smart Connections settings.
