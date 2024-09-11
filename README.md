@@ -8,7 +8,7 @@ If you want to contribute to the documentation, please create a pull request.
 
 ## Opening these docs in Obsidian
 1. Download the repo from GitHub
-![[Download docs github repo.png]]
+![](./assets/Download%20docs%20github%20repo.png)
 2. Extract the ZIP
 3. Open the extracted folded as an Obsidian vault
 
