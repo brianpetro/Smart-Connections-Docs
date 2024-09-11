@@ -25,7 +25,6 @@ title: Smart Ecosystem
 #### [Obsidian Smart Connections plugin](https://www.youtube.com/watch?v=8uBMjAoE--I&list=PLqu2iXqr-g4wXYDEXTLgoEP3g5vS73hwj&pp=gAQBiAQB)
 
 
-
 ## GitHub
 - [Obsidian Smart Connections](https://github.com/brianpetro/obsidian-smart-connections)
 - [Obsidian Smart Templates](https://github.com/brianpetro/obsidian-smart-templates)
