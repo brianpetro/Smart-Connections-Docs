@@ -11,5 +11,5 @@ Try using the legacy version of HuggingFace Transformers. Turn on this setting i
 ![[Ensure environment is set in smart action group.png]]
 
 ## Still need help? Submit an issue on GitHub
-- [Smart Connect issues]()
-- [Smart Connections issues]()
+- [Smart Connect issues](https://github.com/brianpetro/obsidian-smart-connections/issues)
+- [Smart Connections issues](https://github.com/brianpetro/smart-connect/issues)
