@@ -6,6 +6,8 @@ This repo is made public so that the community can contribute to the documentati
 
 If you want to contribute to the documentation, please create a pull request.
 
+😊🌴
+
 ## Opening these docs in Obsidian
 1. Download the repo from GitHub
 ![](./assets/Download%20docs%20github%20repo.png)
@@ -14,4 +16,6 @@ If you want to contribute to the documentation, please create a pull request.
 
 *Note: it should be possible to use the Git plugin to submit pull requests directly from Obsidian (if you get this figured out, please contribute the instructions here!)*
 
-😊🌴
+## Contributing code
+
+If you want to contribute code to Smart Connect or the Smart Connections plugin, please check out [JS Brains](https://github.com/brianpetro/jsbrains) which contains the core code for both.
