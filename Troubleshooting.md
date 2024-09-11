@@ -5,4 +5,4 @@ Try using the legacy version of HuggingFace Transformers. Turn on this setting i
 ![[Use legacy transformers.png]]
 
 ## Smart Connect app
-- 
+- Open the 
