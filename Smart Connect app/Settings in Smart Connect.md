@@ -1,12 +1,6 @@
-### 1. Overview
-
 The **Settings** section allows you to configure global preferences, security options, and other important aspects of the Smart Connect app. This includes managing your connection to the Smart Connect Official Service, adjusting security settings, monitoring performance and token usage, and utilizing debugging tools to maintain optimal functionality.
 
----
-
-### 2. Settings
-
-#### 2.1 Security (Advanced)
+## Security (Advanced)
 
 - **Description**: The **Security** toggle enables or disables HTTPS security features within the Smart Connect app. By default, this setting should be **On** to ensure secure communication when connecting via the Smart Connect Official Service.
 
@@ -19,11 +13,9 @@ The **Settings** section allows you to configure global preferences, security op
 	- Ensure that your custom server is securely configured.
 	- Be cautious of unauthorized access when security is disabled.
 
----
+## Global Settings
 
-### 3. Global Settings
-
-#### 3.1 API Key
+### API Key
 
 - **Purpose**: The **API Key** functions as a password to secure your custom GPTs. It's required when setting up Custom GPTs and ensures that only authorized users can access and modify your GPT configurations.
 
@@ -32,7 +24,7 @@ The **Settings** section allows you to configure global preferences, security op
 	- In future updates, this setting will become editable and may be relocated for better accessibility.
 	- It's important to keep your API Key confidential to maintain security.
 
-#### 3.2 Prevent Sleep
+### Prevent Sleep
 
 - **Description**: The **Prevent Sleep** toggle keeps your computer awake, preventing it from entering sleep mode while Smart Connect is running.
 
@@ -48,7 +40,7 @@ The **Settings** section allows you to configure global preferences, security op
 	- Ensures that Smart Connect remains active and accessible.
 	- Prevents interruptions in AI interactions due to the computer sleeping.
 
-#### 3.3 Auto-Launch
+### Auto-Launch
 
 - **Description**: Enabling **Auto-Launch** starts the Smart Connect app automatically when your computer boots.
 
@@ -63,18 +55,16 @@ The **Settings** section allows you to configure global preferences, security op
 	- May slightly increase boot time.
 	- Consumes system resources upon startup.
 
----
+## Official Service
 
-### 4. Official Service
-
-#### 4.1 Email
+### Email
 
 - **Purpose**: Enter the email address associated with your Smart Connect account. This email is linked to your official service credentials and is necessary for authentication.
 
 - **How to Enter**:
 	- In the **Official Service** section, input your registered email address.
 
-#### 4.2 Connection Key
+### Connection Key
 
 - **Purpose**: The **Connection Key** links the app to your Smart Connect account, allowing secure communication with the official service.
 
@@ -89,11 +79,9 @@ The **Settings** section allows you to configure global preferences, security op
 	- If you experience connection issues.
 	- After resetting settings or reinstalling the app.
 
----
+## Stats
 
-### 5. Stats
-
-#### 5.1 Input Tokens
+### Input Tokens
 
 - **Definition**: Input tokens represent the amount of data (in tokens) sent to ChatGPT based on requests from your conversations.
 
@@ -101,7 +89,7 @@ The **Settings** section allows you to configure global preferences, security op
 	- Helps monitor how much information you're sending to the AI.
 	- Useful for understanding and managing usage limits or costs.
 
-#### 5.2 Output Tokens
+### Output Tokens
 
 - **Definition**: Output tokens are the tokens representing the context retrieved by ChatGPT from your notes.
 
@@ -109,7 +97,7 @@ The **Settings** section allows you to configure global preferences, security op
 	- Indicates how much of your note content is being accessed by the AI.
 	- Helps track data retrieval and potential exposure of sensitive information.
 
-#### 5.3 Total Tokens
+### Total Tokens
 
 - **Calculation**: Total tokens are the sum of input and output tokens.
 
@@ -118,11 +106,9 @@ The **Settings** section allows you to configure global preferences, security op
 	- Important for tracking resource consumption and optimizing performance.
 	- Can help in managing any associated costs with token usage.
 
----
+## Logs
 
-### 6. Logs
-
-#### 6.1 Open Access Log
+### Open Access Log
 
 - **Purpose**: The **Access Log** records incoming requests to the Smart Connect app, providing transparency and security oversight.
 
@@ -133,7 +119,7 @@ The **Settings** section allows you to configure global preferences, security op
 - **How to View**:
 	- Navigate to the **Access Log** section at the bottom of the **Settings** page.
 
-#### 6.2 Open Console Log
+### Open Console Log
 
 - **Purpose**: The **Console Log** is a diagnostic tool that provides detailed technical information for troubleshooting.
 
@@ -153,11 +139,9 @@ The **Settings** section allows you to configure global preferences, security op
 	- Take a screenshot of any errors found.
 	- Report them via GitHub or through the support channels provided.
 
----
+## Debug
 
-### 7. Debug
-
-#### 7.1 Reset Settings
+### Reset Settings
 
 - **Purpose**: The **Reset Settings** function restores all app settings to their default configurations.
 
@@ -176,7 +160,7 @@ The **Settings** section allows you to configure global preferences, security op
 - **Note**:
 	- The **Reset Settings** button is designed to be accessible even if other parts of the app are not functioning properly.
 
-#### 7.2 Show GPU Details
+### Show GPU Details
 
 - **Note**: This feature is generally not important for most users and may be removed in future versions.
 
@@ -188,11 +172,9 @@ The **Settings** section allows you to configure global preferences, security op
 - **Recommendation**:
 	- Ignore this setting unless specifically advised to use it.
 
----
+## Example Scenarios and Use Cases
 
-### 8. Example Scenarios and Use Cases
-
-#### 8.1 Connecting to Smart Connect with Custom Security Settings
+### Connecting to Smart Connect with Custom Security Settings
 
 - **Scenario**: You are running your own custom tunnel server and need to disable the default security settings to connect.
 
@@ -206,7 +188,7 @@ The **Settings** section allows you to configure global preferences, security op
 	- Disabling security is only recommended for advanced users.
 	- Be aware of the potential security implications.
 
-#### 8.2 Monitoring Token Usage for Performance Optimization
+### Monitoring Token Usage for Performance Optimization
 
 - **Scenario**: You want to optimize the performance of your GPT interactions and manage resource usage.
 
@@ -219,7 +201,7 @@ The **Settings** section allows you to configure global preferences, security op
 	- Helps in managing any costs associated with token usage.
 	- Improves efficiency and responsiveness of the AI.
 
-#### 8.3 Debugging System Issues via Logs and Reset Settings
+### Debugging System Issues via Logs and Reset Settings
 
 - **Scenario**: You're experiencing issues with the app and need to troubleshoot.
 
@@ -233,19 +215,3 @@ The **Settings** section allows you to configure global preferences, security op
 - **Tips**:
 	- Always backup important settings or configurations before resetting.
 	- Use the **Access Log** to check for any unauthorized access that might be causing issues.
-
----
-
-### Additional Improvements
-
-Based on the transcript and additional structural information, the following improvements have been made:
-
-- **Detailed Descriptions**: Filled in the italicized sections with specific information from the transcript to provide clearer guidance.
-
-- **Example Scenarios**: Added practical examples and use cases to help users understand how to apply the settings in real-world situations.
-
-- **Warnings and Notes**: Included important warnings about potential risks when adjusting advanced settings, especially concerning security.
-
-- **Clarity on Deprecations**: Noted that certain features like **GPU Details** may be removed in future updates, aligning with the transcript's information.
-
-- **Reorganization**: Structured the Settings section to follow a logical flow, making it easier for users to navigate and understand each setting.

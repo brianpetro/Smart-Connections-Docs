@@ -1,12 +1,8 @@
-## 1. Overview
-
 Smart Actions allow you to define how the AI interacts with your notes by specifying the operations it can perform. They are crucial for managing workflows and customizing AI behavior to suit your specific needs. With Smart Actions, you can leverage both official GPTs provided by the app and create your own custom GPTs. This flexibility enables you to integrate with official tools and community-created actions, tailoring the AI's capabilities to enhance your productivity.
 
----
+## Smart Actions
 
-## 2. Smart Actions
-
-### 2.1 Official GPTs
+### Official GPTs
 
 #### Notes
 
@@ -49,11 +45,9 @@ To enable or run the Transcribe GPT:
 4. Ensure that only the **Create** and **Append** actions are enabled to streamline the transcription process.
 5. Use ChatGPT with the Transcribe GPT to begin transcribing audio content into your notes.
 
----
+## Custom GPTs
 
-## 3. Custom GPTs
-
-### 3.1 Default GPT Action Group (Deprecated)
+### Default GPT Action Group (Deprecated)
 
 **Important Notice**: The **Default** GPT action group is being deprecated and will be removed in future updates. This group previously served as a catch-all for custom GPTs that had not been updated to the new system. It is critical to replace any GPTs relying on the default action group with newly created custom GPTs to ensure continued functionality.
 
@@ -65,7 +59,7 @@ To enable or run the Transcribe GPT:
 4. Test the new GPT to confirm it operates as expected.
 5. Delete the old GPT that was using the default action group.
 
-### 3.2 Custom GPT Creation
+### Custom GPT Creation
 
 Creating and managing Custom GPTs allows you to tailor the AI's capabilities to your specific workflows. Here's how to create a new Custom GPT:
 
@@ -128,7 +122,7 @@ The **Setup Details** section provides necessary information for integrating you
     - Certain settings, such as **Alignment File/Text**, will only appear if the corresponding action (e.g., **Alignment** action) is included.
     - **Tip**: Add all the necessary actions first to ensure all required settings are available for configuration.
 
-### 3.3 Managing Actions
+### Managing Actions
 
 Managing actions within your custom GPT is crucial for tailoring the AI's behavior.
 
@@ -160,7 +154,7 @@ Managing actions within your custom GPT is crucial for tailoring the AI's behavi
     - Check for any errors or unexpected behavior.
     - Adjust your GPT's configuration as necessary based on the test results.
 
-### 3.4 Community Actions
+### Community Actions
 
 - **Finding and Integrating Community Actions**:
     - Community actions are pre-built actions created by other users that you can incorporate into your custom GPTs.
@@ -173,11 +167,9 @@ Managing actions within your custom GPT is crucial for tailoring the AI's behavi
         2. Ensure you have any necessary alignment files or settings required by the action.
         3. Test the GPT to confirm the community action works correctly.
 
----
+## Example Use Cases
 
-## 4. Example Use Cases
-
-### 4.1 Creating a Custom GPT for Notes Management
+### Creating a Custom GPT for Notes Management
 
 **Objective**: Set up a custom GPT that can summarize and categorize notes.
 
@@ -204,7 +196,7 @@ Managing actions within your custom GPT is crucial for tailoring the AI's behavi
     - Use ChatGPT to issue commands like "Summarize the note titled 'Project Plan'" or "Categorize notes related to 'Marketing'".
     - Verify the AI performs the tasks accurately.
 
-### 4.2 Adding and Testing Transcription GPT
+### Adding and Testing Transcription GPT
 
 **Objective**: Set up a transcription GPT for converting audio content into notes.
 

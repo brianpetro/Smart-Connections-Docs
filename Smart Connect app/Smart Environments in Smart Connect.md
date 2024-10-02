@@ -1,17 +1,15 @@
-### 1. Overview
+Smart Environments are a core component of the Smart Connect app. They define the connection between your computer and the AI, specifying which files are accessible (sources) and how they are processed (actions).
 
-Smart Environments are a core component of the Smart Connect app. They define the connection between your notes and the AI, specifying which notes are accessible and how they are processed. By configuring Smart Environments, you enable seamless interaction between your Obsidian vault and AI-powered features for embedding and managing sources in structured environments.
+### Creating and Managing Environments
 
-### 2. Creating and Managing Environments
-
-**2.1 New Environment**
+**New Environment**
 
 - **Creating a New Environment**:
 
-	- **Step 1**: Open the **Smart Connect** app.
-	- **Step 2**: If no environments are found, click the **New Environment** button.
-	- **Step 3**: Click on the **Folder** field to select your Obsidian vault folder.
-	- **Step 4**: The new environment will appear in the Smart Environments list.
+	- Open the **Smart Connect** app.
+	- If no environments are found, click the **New Environment** button.
+	- Click on the **Folder** field to select your Obsidian vault folder.
+	- The new environment will appear in the Smart Environments list.
 
 - **Renaming the Environment**:
 
@@ -20,27 +18,27 @@ Smart Environments are a core component of the Smart Connect app. They define th
 		- Enter the exact name of your Obsidian vault.
 		- Press **Enter** to save the new name.
 
-**2.2 Delete Environment**
+**Delete Environment**
 
 - **Deleting an Environment**:
 
-	- **Step 1**: In the **Smart Environments** section, locate the environment you wish to delete.
-	- **Step 2**: Right-click on the environment and select **Delete** (or click the delete icon if available).
+	- In the **Smart Environments** section, locate the environment you wish to delete.
+	- Right-click on the environment and select **Delete** (or click the delete icon if available).
 	- **Considerations**:
 		- Deleting an environment will remove its configuration and associated settings.
 		- Embedded data and settings specific to that environment will be lost.
 		- This action cannot be undone, so proceed with caution.
 
-### 3. Environment Configuration Settings
+### Environment Configuration Settings
 
-**3.1 Name**
+**Name**
 
 - The **Name** field specifies the name of your Smart Environment.
 	- **Recommendation**: Set the environment name to match your Obsidian vault name.
 		- Ensures compatibility with Obsidian-specific features.
 		- Facilitates synchronization between the app and the Obsidian plugin.
 
-**3.2 Folder**
+**Folder**
 
 - The **Folder** setting defines the directory where your notes are stored.
 	- **Selecting a Folder**:
@@ -50,7 +48,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 	- **Purpose**:
 		- Specifies the source of notes for embedding and AI interaction.
 
-**3.3 Obsidian Vault Toggle**
+**Obsidian Vault Toggle**
 
 - The **Obsidian Vault Toggle** indicates whether the environment is linked with an Obsidian vault.
 	- **Activating the Toggle**:
@@ -61,7 +59,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 		- Shares the same Smart Environment configuration file.
 		- Ensures compatibility with Obsidian-specific features.
 
-**3.4 File Exclusions**
+**File Exclusions**
 
 - **Purpose**: Exclude specific files from being embedded and processed by the AI.
 - **How to Set File Exclusions**:
@@ -71,7 +69,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 	- Prevents certain files from being included in embeddings.
 	- Useful for excluding temporary files or notes not relevant to AI interactions.
 
-**3.5 Folder Exclusions**
+**Folder Exclusions**
 
 - **Purpose**: Exclude entire folders from embedding and AI processing.
 - **How to Set Folder Exclusions**:
@@ -81,7 +79,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 	- Excludes all notes within specified folders.
 	- Helps manage large vaults by omitting irrelevant sections.
 
-**3.6 Excluded Headings**
+**Excluded Headings**
 
 - **Purpose**: Exclude specific headings or sections within notes from being embedded.
 - **How to Set Excluded Headings**:
@@ -91,9 +89,9 @@ Smart Environments are a core component of the Smart Connect app. They define th
 	- Prevents sensitive or irrelevant sections from being processed.
 	- Enhances privacy and relevance of AI interactions.
 
-### 4. Smart Sources
+### Smart Sources
 
-**4.1 Embedding Model**
+**Embedding Model**
 
 - **Description**: The **Embedding Model** determines how your notes are converted into vector representations for AI processing.
 - **Selecting a Model**:
@@ -102,7 +100,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 - **Purpose**:
 	- Influences the quality and efficiency of AI understanding of your notes.
 
-**4.2 Minimum Embedding Length**
+**Minimum Embedding Length**
 
 - **Description**: Sets the minimum length for a note to be considered for embedding.
 - **Setting the Length**:
@@ -111,7 +109,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 	- Shorter notes below this threshold are excluded from embedding.
 	- Optimizes performance by reducing unnecessary processing.
 
-**4.3 GPU Batch Size**
+**GPU Batch Size**
 
 - **Description**: Determines the number of embeddings processed simultaneously when using a GPU.
 - **Setting the Batch Size**:
@@ -121,7 +119,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 	- Larger batch sizes can improve speed but require more memory.
 	- Adjust according to your hardware specifications.
 
-**4.4 Legacy Transformers**
+**Legacy Transformers**
 
 - **Description**: Option to use older v2 transformer models instead of the default v3 models.
 - **When to Use**:
@@ -130,7 +128,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 - **How to Enable**:
 	- Toggle **Legacy Transformers** to **On**.
 
-**4.5 Smart Change (Change Safety)**
+**Smart Change (Change Safety)**
 
 - **Description**: The **Smart Change** feature wraps AI-made changes, showing both original and modified versions.
 - **Benefits**:
@@ -143,9 +141,9 @@ Smart Environments are a core component of the Smart Connect app. They define th
 - **Recommendation**:
 	- Keep enabled to maintain control over AI interactions with your notes.
 
-### 5. Smart Blocks
+### Smart Blocks
 
-**5.1 Embed Blocks**
+**Embed Blocks**
 
 - **Description**: Embedding blocks splits notes into smaller chunks (blocks), embedding them individually along with the whole note.
 - **How to Activate**:
@@ -157,7 +155,7 @@ Smart Environments are a core component of the Smart Connect app. They define th
 	- Recommended for longer notes with headings and bullet points.
 	- Not necessary for very short or atomic notes.
 
-### 6. Loading Sources
+### Loading Sources
 
 - **Default Behavior**:
 	- Smart Connect does not load all embeddings by default to improve startup speed.
@@ -193,29 +191,19 @@ Smart Environments are a core component of the Smart Connect app. They define th
 		- Use **Run Import** if issues persist.
 	- Be aware of potential glitches; updates are ongoing to resolve them.
 
-### 7. Additional Considerations
+### Additional Considerations
 
 - **Performance Tips**:
 
 	- **Embed Blocks** increases the number of embeddings; consider disabling if performance is impacted.
-	- Adjust **Minimum Embedding Length** to exclude insignificant notes.
-
-- **Known Issues**:
-
-	- Some features may have glitches as improvements are in progress.
-	- Regularly update the app to benefit from bug fixes.
+	- Adjust **Minimum Embedding Length** to prevent embedding content with less than the minimum length.
 
 - **Synchronization with Obsidian**:
 
 	- Matching the environment name with your vault name ensures seamless integration.
 	- Shared configurations enhance functionality between the app and plugin.
 
-- **Best Practices**:
-
-	- Regularly refresh embeddings after significant changes.
-	- Use file and folder exclusions to manage large volumes of notes.
-
 - **Feedback and Support**:
 
 	- Report errors or issues to support channels or the GitHub repository.
-	- Provide detailed information to assist in troubleshooting.
+	- Provide screenshots to assist in troubleshooting.
