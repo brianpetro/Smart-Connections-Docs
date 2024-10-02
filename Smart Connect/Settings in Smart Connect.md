@@ -1,105 +1,251 @@
-## Overview of Settings
-The **Settings** section allows you to configure global preferences, security options, and other important aspects of the Smart Connect app.
+### 1. Overview
 
-## API Key
-- **Purpose**: Required when setting up Custom GPTs.
-- **Current State**: Set to a default value.
-- **Future Plans**:
-	- Will become editable.
-	- May be relocated within the app for better accessibility.
+The **Settings** section allows you to configure global preferences, security options, and other important aspects of the Smart Connect app. This includes managing your connection to the Smart Connect Official Service, adjusting security settings, monitoring performance and token usage, and utilizing debugging tools to maintain optimal functionality.
 
-## Security Settings
-- **Using a Custom Server**:
-	- If not using the Smart Connect Official service, you can adjust security settings.
-- **Turning Off Security**:
-	- Toggle **Security** to **Off** if using your own tunnel server.
-	- Additional options will appear for further configuration.
-- **Note**:
-	- The security feature enhances protection when using the official service.
-	- Cannot be enabled with custom servers.
+---
 
-## Global Settings
+### 2. Settings
 
-### Prevent Sleep
-- **Purpose**: Keeps your computer awake to maintain AI access.
+#### 2.1 Security (Advanced)
+
+- **Description**: The **Security** toggle enables or disables HTTPS security features within the Smart Connect app. By default, this setting should be **On** to ensure secure communication when connecting via the Smart Connect Official Service.
+
+- **When to Disable**:
+	- If you're running your own tunnel server instead of using the Smart Connect Official Service, you need to turn off the **Security** setting.
+	- Disabling security allows the app to connect through your custom server, but it also disables certain security features provided by the official service.
+
+- **Potential Risks and Mitigation**:
+	- Disabling HTTPS security can expose your data to potential security risks.
+	- Ensure that your custom server is securely configured.
+	- Be cautious of unauthorized access when security is disabled.
+
+---
+
+### 3. Global Settings
+
+#### 3.1 API Key
+
+- **Purpose**: The **API Key** functions as a password to secure your custom GPTs. It's required when setting up Custom GPTs and ensures that only authorized users can access and modify your GPT configurations.
+
+- **Usage**:
+	- Currently set to a default value.
+	- In future updates, this setting will become editable and may be relocated for better accessibility.
+	- It's important to keep your API Key confidential to maintain security.
+
+#### 3.2 Prevent Sleep
+
+- **Description**: The **Prevent Sleep** toggle keeps your computer awake, preventing it from entering sleep mode while Smart Connect is running.
+
 - **When to Use**:
-	- If you need constant access to notes via ChatGPT from other devices.
+	- If you need constant access to your notes via ChatGPT from other devices, such as your cell phone.
+	- Useful during long-running tasks or continuous data retrieval.
+
 - **How to Enable**:
+	- Go to **Global Settings**.
 	- Toggle **Prevent Sleep** to **On**.
 
-### Auto Launch
-- **Purpose**: Starts the app automatically when your computer boots.
 - **Benefits**:
-	- Ensures the app is always ready for use.
+	- Ensures that Smart Connect remains active and accessible.
+	- Prevents interruptions in AI interactions due to the computer sleeping.
+
+#### 3.3 Auto-Launch
+
+- **Description**: Enabling **Auto-Launch** starts the Smart Connect app automatically when your computer boots.
+
 - **How to Enable**:
-	- Toggle **Auto Launch** to **On**.
+	- In **Global Settings**, toggle **Auto-Launch** to **On**.
 
-## Official Service Settings
+- **Benefits**:
+	- The app is always ready for use without manual intervention.
+	- Saves time and ensures continuous availability.
 
-### Email and Connection Key
-- **Email**: Your registered email address.
-- **Connection Key**: Links the app to your account.
-- **Obtaining a Connection Key**:
-	- Click **Get Connection Key** and follow the instructions.
+- **Trade-offs**:
+	- May slightly increase boot time.
+	- Consumes system resources upon startup.
 
-## Statistics
+---
 
-### Input Tokens
-- **Definition**: Tokens used in requests sent to ChatGPT.
+### 4. Official Service
+
+#### 4.1 Email
+
+- **Purpose**: Enter the email address associated with your Smart Connect account. This email is linked to your official service credentials and is necessary for authentication.
+
+- **How to Enter**:
+	- In the **Official Service** section, input your registered email address.
+
+#### 4.2 Connection Key
+
+- **Purpose**: The **Connection Key** links the app to your Smart Connect account, allowing secure communication with the official service.
+
+- **How to Obtain**:
+	- Click the **Get Connection Key** button within the app.
+	- Follow the instructions sent to your email to retrieve the key.
+
+- **How to Enter**:
+	- Enter the **Connection Key** in the designated field in the **Official Service** settings.
+
+- **When to Refresh**:
+	- If you experience connection issues.
+	- After resetting settings or reinstalling the app.
+
+---
+
+### 5. Stats
+
+#### 5.1 Input Tokens
+
+- **Definition**: Input tokens represent the amount of data (in tokens) sent to ChatGPT based on requests from your conversations.
+
 - **Usage**:
-	- Helps monitor the volume of data being processed.
+	- Helps monitor how much information you're sending to the AI.
+	- Useful for understanding and managing usage limits or costs.
 
-### Output Tokens
-- **Definition**: Tokens representing context retrieved from your notes.
+#### 5.2 Output Tokens
+
+- **Definition**: Output tokens are the tokens representing the context retrieved by ChatGPT from your notes.
+
 - **Usage**:
-	- Indicates how much information the AI is accessing.
+	- Indicates how much of your note content is being accessed by the AI.
+	- Helps track data retrieval and potential exposure of sensitive information.
 
-### Total Tokens
-- **Calculation**: Sum of input and output tokens.
+#### 5.3 Total Tokens
+
+- **Calculation**: Total tokens are the sum of input and output tokens.
+
 - **Purpose**:
-	- Useful for tracking overall usage and potential costs.
+	- Provides an overall view of your token usage.
+	- Important for tracking resource consumption and optimizing performance.
+	- Can help in managing any associated costs with token usage.
 
-## Access Log
-- **Purpose**: Logs incoming requests for transparency.
+---
+
+### 6. Logs
+
+#### 6.1 Open Access Log
+
+- **Purpose**: The **Access Log** records incoming requests to the Smart Connect app, providing transparency and security oversight.
+
 - **Usage**:
-	- Monitor for unauthorized access.
-	- Review request origins.
+	- Monitor for unauthorized access attempts.
+	- Review the origins of requests to ensure they are legitimate.
+
 - **How to View**:
-	- Navigate to the **Access Log** section.
+	- Navigate to the **Access Log** section at the bottom of the **Settings** page.
 
-## Console Log
+#### 6.2 Open Console Log
 
-### Opening the Console Log
-- Click **Open Console Log** to display the console window.
-- View logs under the **Console** tab.
+- **Purpose**: The **Console Log** is a diagnostic tool that provides detailed technical information for troubleshooting.
 
-### Identifying and Reporting Errors
-- Look for errors or warnings.
-- If issues are found:
-	1. Take a screenshot of the error.
-	2. Report it via GitHub or support channels.
+- **How to Open**:
+	- Click **Open Console Log** within the **Settings** section.
+	- A new window will appear displaying log information.
 
-### Purpose
-- Assists in troubleshooting.
-- Provides detailed information for diagnosing problems.
+- **Interpreting the Console Log**:
+	- Focus on the **Console** tab for relevant information.
+	- Look for errors or warnings highlighted in the log.
 
-## Reset Settings
-- **Purpose**: Restores all settings to default.
 - **When to Use**:
-	- If encountering issues after updates or incompatible configurations.
+	- If you encounter issues or unexpected behavior in the app.
+	- For reporting errors to support channels.
+
+- **Reporting Errors**:
+	- Take a screenshot of any errors found.
+	- Report them via GitHub or through the support channels provided.
+
+---
+
+### 7. Debug
+
+#### 7.1 Reset Settings
+
+- **Purpose**: The **Reset Settings** function restores all app settings to their default configurations.
+
+- **When to Use**:
+	- If you're experiencing issues due to incompatible or corrupt settings.
+	- After significant updates or when troubleshooting major problems.
+
 - **How to Reset**:
-	1. Click **Reset Settings**.
-	2. Confirm when prompted.
+	1. Click **Reset Settings** in the **Debug** section.
+	2. Confirm the action when prompted.
+
 - **Warning**:
-	- All custom settings will be lost.
-	- Reconfiguration will be necessary.
+	- All custom configurations will be lost.
+	- You will need to reconfigure your settings after the reset.
 
-## Additional Settings
+- **Note**:
+	- The **Reset Settings** button is designed to be accessible even if other parts of the app are not functioning properly.
 
-### GPU Details
-- **Note**: Generally not important for most users.
-- **Status**: May be removed in future versions.
-- **Purpose**:
-	- Displays GPU information.
+#### 7.2 Show GPU Details
+
+- **Note**: This feature is generally not important for most users and may be removed in future versions.
+
+- **Purpose**: Displays details about your system's GPU.
+
+- **When to Use**:
+	- Only if instructed by support staff for troubleshooting performance issues.
+
 - **Recommendation**:
-	- Ignore unless instructed by support.
+	- Ignore this setting unless specifically advised to use it.
+
+---
+
+### 8. Example Scenarios and Use Cases
+
+#### 8.1 Connecting to Smart Connect with Custom Security Settings
+
+- **Scenario**: You are running your own custom tunnel server and need to disable the default security settings to connect.
+
+- **Steps**:
+	1. Navigate to **Settings > Security (Advanced)**.
+	2. Toggle **Security** to **Off**.
+	3. Configure any additional settings that appear after disabling security.
+	4. Ensure your custom server is securely set up to mitigate risks.
+
+- **Important**:
+	- Disabling security is only recommended for advanced users.
+	- Be aware of the potential security implications.
+
+#### 8.2 Monitoring Token Usage for Performance Optimization
+
+- **Scenario**: You want to optimize the performance of your GPT interactions and manage resource usage.
+
+- **Steps**:
+	1. Go to **Settings > Stats**.
+	2. Review **Input Tokens** and **Output Tokens** to understand your usage patterns.
+	3. Use this information to adjust your interactions or configurations to reduce unnecessary token consumption.
+
+- **Benefits**:
+	- Helps in managing any costs associated with token usage.
+	- Improves efficiency and responsiveness of the AI.
+
+#### 8.3 Debugging System Issues via Logs and Reset Settings
+
+- **Scenario**: You're experiencing issues with the app and need to troubleshoot.
+
+- **Steps**:
+	1. Open the **Console Log** via **Settings > Open Console Log**.
+	2. Check for any errors or warnings.
+	3. If errors are found, take a screenshot and report them to support.
+	4. If issues persist, use **Reset Settings** to restore defaults.
+	5. Reconfigure your settings after the reset.
+
+- **Tips**:
+	- Always backup important settings or configurations before resetting.
+	- Use the **Access Log** to check for any unauthorized access that might be causing issues.
+
+---
+
+### Additional Improvements
+
+Based on the transcript and additional structural information, the following improvements have been made:
+
+- **Detailed Descriptions**: Filled in the italicized sections with specific information from the transcript to provide clearer guidance.
+
+- **Example Scenarios**: Added practical examples and use cases to help users understand how to apply the settings in real-world situations.
+
+- **Warnings and Notes**: Included important warnings about potential risks when adjusting advanced settings, especially concerning security.
+
+- **Clarity on Deprecations**: Noted that certain features like **GPU Details** may be removed in future updates, aligning with the transcript's information.
+
+- **Reorganization**: Structured the Settings section to follow a logical flow, making it easier for users to navigate and understand each setting.

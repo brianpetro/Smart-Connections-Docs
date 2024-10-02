@@ -1,99 +1,221 @@
+### 1. Overview
 
-## Introduction to Smart Environments
+Smart Environments are a core component of the Smart Connect app. They define the connection between your notes and the AI, specifying which notes are accessible and how they are processed. By configuring Smart Environments, you enable seamless interaction between your Obsidian vault and AI-powered features for embedding and managing sources in structured environments.
 
-Smart Environments are a core component of the Smart Connect app. They define the connection between your notes and the AI, specifying which notes are accessible and how they are processed. By configuring Smart Environments, you enable seamless interaction between your Obsidian vault and AI-powered features.
+### 2. Creating and Managing Environments
 
-## Creating a New Smart Environment
+**2.1 New Environment**
 
-### Entering Your Email and Connection Key
-To begin using Smart Environments, you need to enter your email and connection key:
-1. Open the **Smart Connect** app.
-2. Enter your **Email** and **Connection Key** in the respective fields.
-3. Restart the application to apply the changes.
+- **Creating a New Environment**:
 
-### Adding a New Environment
-After restarting, you can add a new Smart Environment:
-1. Click on the **Smart Environments** section.
-2. Since no environments are found initially, click the **New Environment** button.
-3. A prompt will highlight the **Folder** setting.
-4. Click on the **Folder** field to select your Obsidian vault folder.
-	- Navigate to the location of your Obsidian vault and select it.
-5. The new environment will appear in the Smart Environments list.
+	- **Step 1**: Open the **Smart Connect** app.
+	- **Step 2**: If no environments are found, click the **New Environment** button.
+	- **Step 3**: Click on the **Folder** field to select your Obsidian vault folder.
+	- **Step 4**: The new environment will appear in the Smart Environments list.
 
-### Renaming the Environment
-For compatibility with Obsidian-specific features, rename the environment to match your vault name:
-1. Right-click on the new environment and select **Rename**.
-2. Enter the exact name of your Obsidian vault.
-3. Press **Enter** to save the new name.
+- **Renaming the Environment**:
 
-## Smart Environment Settings
+	- It's recommended to rename the environment to match your vault name for compatibility with Obsidian-specific features.
+		- Right-click on the new environment and select **Rename**.
+		- Enter the exact name of your Obsidian vault.
+		- Press **Enter** to save the new name.
 
-### Overview of Settings
-When you expand your environment, you'll see various settings:
-- **Obsidian Vault Name**: Displays the name of your vault.
-- **Folder**: Shows the path to your Obsidian vault.
-- **Obsidian Vault Toggle**: Indicates whether the vault integration is active.
-	- This may be toggled on by default, especially if you have the Smart Connections Obsidian plugin running.
-- **Exclusion Settings**:
-	- **Untitled File Exclusion**: Excludes untitled files from processing.
-	- **Smart Chats File Exclusion**: Excludes Smart Chats files.
-	- These settings are synced from your Obsidian settings for Smart Connections.
+**2.2 Delete Environment**
 
-## Smart Sources
+- **Deleting an Environment**:
 
-### Understanding Smart Sources
-Smart Sources represent your notes in a format that the AI can process. They include settings that determine how your notes are embedded and used by the AI.
+	- **Step 1**: In the **Smart Environments** section, locate the environment you wish to delete.
+	- **Step 2**: Right-click on the environment and select **Delete** (or click the delete icon if available).
+	- **Considerations**:
+		- Deleting an environment will remove its configuration and associated settings.
+		- Embedded data and settings specific to that environment will be lost.
+		- This action cannot be undone, so proceed with caution.
 
-### Embedding Settings
-- **Embedding Model**: Choose the model for embedding your notes.
-- **Other Settings**: Configure additional options similar to those in the Smart Connections plugin.
+### 3. Environment Configuration Settings
 
-### Smart Change
-The **Smart Change** feature wraps any changes made by the AI, allowing you to see both the original and modified versions.
-- In the Obsidian plugin, this translates into a UI where you can accept or reject changes.
-- To enable, toggle **Smart Change** to **On**.
+**3.1 Name**
 
-### Block Embeddings
-Block embeddings split your notes into smaller chunks (blocks), which are embedded individually alongside the entire note.
-- **Benefits**:
-	- Improves search granularity.
-	- Enhances AI's ability to find relevant content.
+- The **Name** field specifies the name of your Smart Environment.
+	- **Recommendation**: Set the environment name to match your Obsidian vault name.
+		- Ensures compatibility with Obsidian-specific features.
+		- Facilitates synchronization between the app and the Obsidian plugin.
+
+**3.2 Folder**
+
+- The **Folder** setting defines the directory where your notes are stored.
+	- **Selecting a Folder**:
+		- Click on the **Folder** field.
+		- Navigate to your Obsidian vault directory.
+		- Select the folder containing your notes.
+	- **Purpose**:
+		- Specifies the source of notes for embedding and AI interaction.
+
+**3.3 Obsidian Vault Toggle**
+
+- The **Obsidian Vault Toggle** indicates whether the environment is linked with an Obsidian vault.
+	- **Activating the Toggle**:
+		- Toggle it **On** if you're using Obsidian.
+		- May be toggled on by default if the Smart Connections Obsidian plugin is running.
+	- **Benefits**:
+		- Synchronizes settings between Smart Connect and Obsidian.
+		- Shares the same Smart Environment configuration file.
+		- Ensures compatibility with Obsidian-specific features.
+
+**3.4 File Exclusions**
+
+- **Purpose**: Exclude specific files from being embedded and processed by the AI.
+- **How to Set File Exclusions**:
+	- In the environment settings, find the **File Exclusions** field.
+	- Enter the names or patterns of files to exclude (e.g., `Untitled.md`, `Smart Chats.md`).
+- **Usage**:
+	- Prevents certain files from being included in embeddings.
+	- Useful for excluding temporary files or notes not relevant to AI interactions.
+
+**3.5 Folder Exclusions**
+
+- **Purpose**: Exclude entire folders from embedding and AI processing.
+- **How to Set Folder Exclusions**:
+	- Locate the **Folder Exclusions** field in the environment settings.
+	- Enter the names or paths of folders to exclude (e.g., `Templates/`, `Archive/`).
+- **Usage**:
+	- Excludes all notes within specified folders.
+	- Helps manage large vaults by omitting irrelevant sections.
+
+**3.6 Excluded Headings**
+
+- **Purpose**: Exclude specific headings or sections within notes from being embedded.
+- **How to Set Excluded Headings**:
+	- In the environment settings, find the **Excluded Headings** option.
+	- Enter the headings or patterns to exclude (e.g., `# Drafts`, `## Personal`).
+- **Usage**:
+	- Prevents sensitive or irrelevant sections from being processed.
+	- Enhances privacy and relevance of AI interactions.
+
+### 4. Smart Sources
+
+**4.1 Embedding Model**
+
+- **Description**: The **Embedding Model** determines how your notes are converted into vector representations for AI processing.
+- **Selecting a Model**:
+	- Choose from available models (e.g., `"TaylorAI/bge-micro-v2"`).
+	- Consider factors like model size and performance.
+- **Purpose**:
+	- Influences the quality and efficiency of AI understanding of your notes.
+
+**4.2 Minimum Embedding Length**
+
+- **Description**: Sets the minimum length for a note to be considered for embedding.
+- **Setting the Length**:
+	- Specify the minimum number of characters or words (e.g., 100 characters).
+- **Implications**:
+	- Shorter notes below this threshold are excluded from embedding.
+	- Optimizes performance by reducing unnecessary processing.
+
+**4.3 GPU Batch Size**
+
+- **Description**: Determines the number of embeddings processed simultaneously when using a GPU.
+- **Setting the Batch Size**:
+	- Enter a numerical value based on your GPU capabilities.
+	- Set to `0` to disable GPU processing.
+- **Guidance**:
+	- Larger batch sizes can improve speed but require more memory.
+	- Adjust according to your hardware specifications.
+
+**4.4 Legacy Transformers**
+
+- **Description**: Option to use older v2 transformer models instead of the default v3 models.
 - **When to Use**:
-	- Recommended if your notes are longer or contain headings and bullet points.
+	- If you experience issues with v3 models.
+	- For compatibility with previous setups.
+- **How to Enable**:
+	- Toggle **Legacy Transformers** to **On**.
+
+**4.5 Smart Change (Change Safety)**
+
+- **Description**: The **Smart Change** feature wraps AI-made changes, showing both original and modified versions.
+- **Benefits**:
+	- Protects against accidental deletions or overwrites.
+	- Allows you to review and accept or reject changes.
+- **In Obsidian**:
+	- Converts into a UI for managing changes within the plugin.
+- **How to Enable**:
+	- Toggle **Smart Change** to **On**.
+- **Recommendation**:
+	- Keep enabled to maintain control over AI interactions with your notes.
+
+### 5. Smart Blocks
+
+**5.1 Embed Blocks**
+
+- **Description**: Embedding blocks splits notes into smaller chunks (blocks), embedding them individually along with the whole note.
+- **How to Activate**:
+	- In the **Smart Sources** section, toggle **Embed Blocks** to **On** (default is **On**).
+- **Impact on Data Processing**:
+	- Enhances AI's ability to retrieve specific content.
+	- Increases the number of embeddings, potentially affecting performance.
+- **Use Cases**:
+	- Recommended for longer notes with headings and bullet points.
 	- Not necessary for very short or atomic notes.
-- **Enabling Block Embeddings**:
-	- Toggle **Block Embeddings** to **On** (should be on by default).
 
-## Managing Sources
+### 6. Loading Sources
 
-### Loading Sources
-By default, Smart Connect doesn't load all embeddings to start up faster. If ChatGPT requests content, it will automatically load the necessary sources.
+- **Default Behavior**:
+	- Smart Connect does not load all embeddings by default to improve startup speed.
+	- Automatically loads sources when ChatGPT requests content.
+
 - **Manual Loading**:
-	- Click **Load Sources** to manually load all embeddings.
-	- Useful if you want all sources available immediately.
 
-### Embedding Progress and Stats
-After loading, you can view:
-- **Embedding Percentage**: Shows how much of your content is embedded.
-- **Number of Sources**: Indicates total and embedded sources.
-- **Load Time**: Displays how long loading took.
+	- **Load Sources**:
+		- Click the **Load Sources** button to manually load all embeddings.
+		- Useful if you want immediate access to all notes.
+	- **Embedding Progress and Stats**:
+		- View embedding percentage, number of sources, and load time after loading.
 
-### Import and Refresh Actions
-- **Run Import**:
-	- Processes new or updated notes for embedding.
-	- Use when you add significant new content.
-- **Refresh All**:
-	- Reprocesses all notes, applying current settings.
-	- Use after changing exclusion settings or other configurations.
+- **Import and Refresh Actions**:
 
-#### Updating Exclusion Settings
-If you change exclusion settings:
-1. The embedding status may show as partially loaded.
-2. Click **Refresh All** to reprocess notes based on new exclusions.
-3. Wait for the process to complete to see updated stats.
+	- **Run Import**:
+		- Processes new or updated notes for embedding.
+		- Use when you've added significant new content.
+	- **Refresh All**:
+		- Reprocesses all notes, applying current settings.
+		- Use after changing exclusion settings or other configurations.
 
-### Troubleshooting
-- If embeddings aren't updating or sources aren't loading properly:
-	- Try clicking **Refresh All**.
-	- Use **Run Import** if embeddings are incomplete.
-- **Note**: Some glitches may occur; these are being addressed in future updates.
+- **Updating Exclusion Settings**:
+
+	- After changing exclusions, embeddings may show as partially loaded.
+	- Click **Refresh All** to reprocess notes with new settings.
+	- Monitor the embedding status to ensure completeness.
+
+- **Troubleshooting**:
+
+	- If embeddings aren't updating or sources aren't loading properly:
+		- Click **Refresh All**.
+		- Use **Run Import** if issues persist.
+	- Be aware of potential glitches; updates are ongoing to resolve them.
+
+### 7. Additional Considerations
+
+- **Performance Tips**:
+
+	- **Embed Blocks** increases the number of embeddings; consider disabling if performance is impacted.
+	- Adjust **Minimum Embedding Length** to exclude insignificant notes.
+
+- **Known Issues**:
+
+	- Some features may have glitches as improvements are in progress.
+	- Regularly update the app to benefit from bug fixes.
+
+- **Synchronization with Obsidian**:
+
+	- Matching the environment name with your vault name ensures seamless integration.
+	- Shared configurations enhance functionality between the app and plugin.
+
+- **Best Practices**:
+
+	- Regularly refresh embeddings after significant changes.
+	- Use file and folder exclusions to manage large volumes of notes.
+
+- **Feedback and Support**:
+
+	- Report errors or issues to support channels or the GitHub repository.
+	- Provide detailed information to assist in troubleshooting.
