@@ -1,8 +1,8 @@
-Smart Environments are a core component of the Smart Connect app. They define the connection between your computer and the AI, specifying which files are accessible (sources) and how they are processed (actions).
+Smart Environments are a core component of the Smart Connect app, designed to provide seamless integration between your local notes and AI-powered processing. By defining which files are accessible and how they are processed, Smart Environments empower users to interact with their data in a more intelligent and personalized manner. Whether you’re managing your knowledge base, syncing content from Obsidian, or excluding specific sections from processing, Smart Environments offer flexible configuration options tailored to your needs.
 
-### Creating and Managing Environments
+The goal is to put users in control—enabling personal alignment with AI tools while keeping data secure and local. With features like selective embedding, Obsidian compatibility, and advanced customization options, Smart Environments make it easy to integrate your personal workflows with the power of AI while maintaining privacy and relevance.
 
-**New Environment**
+##### New Environment
 
 - **Creating a New Environment**:
 
@@ -18,18 +18,13 @@ Smart Environments are a core component of the Smart Connect app. They define th
 		- Enter the exact name of your Obsidian vault.
 		- Press **Enter** to save the new name.
 
-**Delete Environment**
+##### Delete Environment
+- Right-click on the environment and select **Delete** (or click the delete icon if available).
+- **Considerations**:
+	- Deleting an environment will remove its configuration and associated settings.
+	- Embedded data and settings specific to that environment will be lost.
+	- This action cannot be undone, so proceed with caution.
 
-- **Deleting an Environment**:
-
-	- In the **Smart Environments** section, locate the environment you wish to delete.
-	- Right-click on the environment and select **Delete** (or click the delete icon if available).
-	- **Considerations**:
-		- Deleting an environment will remove its configuration and associated settings.
-		- Embedded data and settings specific to that environment will be lost.
-		- This action cannot be undone, so proceed with caution.
-
-### Environment Configuration Settings
 
 **Name**
 
