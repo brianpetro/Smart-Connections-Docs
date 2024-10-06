@@ -50,3 +50,8 @@ title: Smart Ecosystem
 
 
 ## GitHub
+
+- [Obsidian Smart Connections](https://github.com/brianpetro/obsidian-smart-connections)
+- [Obsidian Smart Templates](https://github.com/brianpetro/obsidian-smart-templates)
+- [Smart Connect](https://github.com/brianpetro/smart-connect)
+- [JS Brains](https://github.com/brianpetro/js-brains)
