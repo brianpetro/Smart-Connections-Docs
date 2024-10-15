@@ -86,4 +86,4 @@ The goal is to put users in control—enabling personal alignment with AI tools 
 	- Enhances privacy and relevance of AI interactions.
 
 ## Smart Sources settings
-See [[+🧩 Smart Ecosystem/docs (public)/docs.sc/Settings/Smart Sources|Smart Sources]] to learn more about settings for sources and blocks.
+See [[Smart Sources settings]] to learn more about settings for sources and blocks.
