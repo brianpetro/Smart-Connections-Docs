@@ -1,4 +1,3 @@
-
 **Embedding Model**
 
 - **Description**: The **Embedding Model** determines how your notes are converted into vector representations for AI processing.
@@ -63,41 +62,47 @@
 	- Recommended for longer notes with headings and bullet points.
 	- Not necessary for very short or atomic notes.
 
-### Loading Sources
+### Loading and Managing Sources
 
-- **Default Behavior**:
-	- Smart Connect does not load all embeddings by default to improve startup speed.
-	- Automatically loads sources when ChatGPT requests content.
+Smart Connect provides several buttons to manage your sources efficiently:
 
-- **Manual Loading**:
+- **Load & Re-load Sources**:
+  - **Purpose**: Loads all embeddings manually.
+  - **When to use**: 
+    - On initial setup or when you want immediate access to all notes.
+    - If embeddings are not currently loaded.
+  - **Behavior**: 
+    - Changes to "Re-load Sources" after initial load.
+    - Displays embedding progress and stats after loading.
 
-	- **Load Sources**:
-		- Click the **Load Sources** button to manually load all embeddings.
-		- Useful if you want immediate access to all notes.
-	- **Embedding Progress and Stats**:
-		- View embedding percentage, number of sources, and load time after loading.
+- **Import**:
+  - **Purpose**: Processes new or updated notes for embedding.
+  - **When to use**: 
+    - After adding significant new content.
+    - When metadata of existing items has changed.
+  - **Behavior**: 
+    - Only queues items with changed metadata for import.
+    - Efficient for updating specific changes without reprocessing everything.
 
-- **Import and Refresh Actions**:
+- **Prune**:
+  - **Purpose**: Removes outdated or invalid items from the collection.
+  - **When to use**: 
+    - Periodically to clean up the database.
+    - If you've deleted files from your vault.
+  - **Behavior**: 
+    - Deletes items that no longer have a corresponding source file.
+    - Helps maintain a clean and efficient database.
 
-	- **Run Import**:
-		- Processes new or updated notes for embedding.
-		- Use when you've added significant new content.
-	- **Refresh All**:
-		- Reprocesses all notes, applying current settings.
-		- Use after changing exclusion settings or other configurations.
-
-- **Updating Exclusion Settings**:
-
-	- After changing exclusions, embeddings may show as partially loaded.
-	- Click **Refresh All** to reprocess notes with new settings.
-	- Monitor the embedding status to ensure completeness.
-
-- **Troubleshooting**:
-
-	- If embeddings aren't updating or sources aren't loading properly:
-		- Click **Refresh All**.
-		- Use **Run Import** if issues persist.
-	- Be aware of potential glitches; updates are ongoing to resolve them.
+- **Clear All & Re-import**:
+  - **Purpose**: Performs a complete reset and reimport of all data.
+  - **When to use**: 
+    - As a troubleshooting step if you're experiencing persistent issues.
+    - After making significant changes to your vault structure or settings.
+  - **Behavior**: 
+    - Clears all existing data.
+    - Reinitializes the file system.
+    - Queues all items for import and embedding.
+    - Use with caution as it's a time-consuming operation.
 
 ### Additional Considerations
 
@@ -107,8 +112,13 @@
 	- Adjust **Minimum Embedding Length** to prevent embedding content with less than the minimum length.
 
 
+- **Troubleshooting**:
+  - If embeddings aren't updating properly, try "Import" first.
+  - If issues persist, use "Prune" followed by "Import".
+  - As a last resort, use "Clear All & Re-import".
 
 - **Feedback and Support**:
+  - Report any errors or unexpected behavior when using these functions.
+  - Provide detailed information about your setup and the steps that led to the issue.
 
-	- Report errors or issues to support channels or the GitHub repository.
-	- Provide screenshots to assist in troubleshooting.
+Remember, these operations can be resource-intensive, especially for large vaults. It's recommended to perform major operations like "Clear All & Re-import" when you have time to let the process complete without interruption.
