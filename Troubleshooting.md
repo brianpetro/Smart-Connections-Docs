@@ -17,3 +17,4 @@ Try using the legacy version of HuggingFace Transformers. Turn on this setting i
 ## Still need help? Submit an issue on GitHub
 - [Smart Connect issues](https://github.com/brianpetro/obsidian-smart-connections/issues)
 - [Smart Connections issues](https://github.com/brianpetro/smart-connect/issues)
+
