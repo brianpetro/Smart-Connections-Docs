@@ -1,6 +1,18 @@
 ---
-title: Quick Start
+title: Quick Start Guide
 ---
+- Smart Connections is designed to work out-of-box
+	- Notes are imported using a local embedding model as soon as you enable the plugin
+	- This process often takes about a minute for one hundred notes
+		- may vary based on notes & computer
+- Open the Smart Connections view (<svg viewBox="0 0 100 100" class="svg-icon smart-connections"><path d="M50,20 L80,40 L80,60 L50,100" stroke="currentColor" stroke-width="4" fill="none"></path>
+    <path d="M30,50 L55,70" stroke="currentColor" stroke-width="5" fill="none"></path>
+    <circle cx="50" cy="20" r="9" fill="currentColor"></circle>
+    <circle cx="80" cy="40" r="9" fill="currentColor"></circle>
+    <circle cx="80" cy="70" r="9" fill="currentColor"></circle>
+    <circle cx="50" cy="100" r="9" fill="currentColor"></circle>
+    <circle cx="30" cy="50" r="9" fill="currentColor"></circle></svg>) and begin browsing connections
+
 ![Smart Connections Installation](https://github.com/brianpetro/obsidian-smart-connections/blob/main/assets/smart-connections-install.gif?raw=true)
 
 #### Installing Smart Connections Obsidian Plugin

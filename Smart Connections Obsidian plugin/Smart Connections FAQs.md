@@ -1,7 +1,6 @@
 ---
 title: FAQs
 ---
-
 ### Can I use Smart Connections without Smart Connect?
 Yes, Smart Connections can be used independently within Obsidian. Smart Connect adds additional functionality by integrating with ChatGPT.
 

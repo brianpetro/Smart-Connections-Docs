@@ -1,7 +1,6 @@
 ---
 title: FAQs
 ---
-
 ### Is my data secure when using Smart Connect?
 Yes, Smart Connect operates locally, and your data is never saved on servers when using the Smart Connect Official Service.
 ### Do I need a ChatGPT Plus subscription to use Smart Connect?
