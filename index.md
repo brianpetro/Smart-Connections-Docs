@@ -1,57 +1,109 @@
 ---
-title: Smart Ecosystem
+title: Smart Ecosystem Documentation
 ---
-# Smart Connections
-- Docs
-	- [Smart Connect app](https://docs.smartconnections.app/Smart-Connect-app/)
-	- [Smart Connections Obsidian plugin](https://docs.smartconnections.app/Smart-Connections-Obsidian-plugin/)
-- [Blog](https://docs.smartconnections.app/Blog/)
-- [[Mission]]
-- [[Workflows]]
+# Welcome to the Smart Ecosystem Documentation
 
-## Obsidian
+**Empowering Individuals with AI through Open-Source Tools**
 
-[**Install Obsidian Plugin**](obsidian://show-plugin?id=smart-connections)
+---
+The **Smart Ecosystem** is a suite of open-source tools designed to integrate AI capabilities into your personal knowledge management workflows, with a focus on privacy and personalization. Our mission is to empower individuals by providing tools that leverage AI while keeping your data secure and under your control.
 
-[**View code on GitHub**](https://github.com/brianpetro/obsidian-smart-connections)
+Key components of the Smart Ecosystem include:
+- **[[Smart Connections Obsidian plugin|Smart Connections Obsidian Plugin]]**: Enhance your Obsidian note-taking with AI-powered connections and insights.
+- **[[Smart Connect app|Smart Connect App]]**: Bridge ChatGPT with your local notes for advanced AI interactions without compromising your data privacy.
 
 ---
 
-## ChatGPT
+## Get Started
+- **[[Smart Connections Obsidian plugin/Smart Connections Quick Start Guide|Quick Start Guide for Smart Connections Obsidian Plugin]]**
+- **[[Smart Connect app/Creating a Custom GPT with Smart Connect|Creating a Custom GPT with Smart Connect]]**
+- **[[Workflows]]**: Explore practical workflows to integrate AI into your daily tasks.
 
-[**Smart Connect App**](https://github.com/brianpetro/smart-connect?tab=readme-ov-file#getting-started-with-smart-connect)
+---
+## Documentation
+### Smart Connections Obsidian Plugin
+- **[[Smart Connections Obsidian plugin/Smart Connections docs|Overview]]**
+- **[[Smart Connections Obsidian plugin/Smart Connections Quick Start Guide|Quick Start Guide]]**
+- **[[Smart Connections Obsidian plugin/Smart Connections FAQs|FAQs]]**
+- **[[Troubleshooting]]**
+- **[[Smart Connections Obsidian plugin/Help debug Smart Connections issues|Help Debug Issues]]**
+- **[[Smart Connections Obsidian plugin/Inspect blocks created for a note|Inspect Blocks Created for a Note]]**
+- **[[Smart Connections Obsidian plugin/Manual Re-Embedding for Specific Notes|Manual Re-Embedding for Specific Notes]]**
+- **[[Smart Connections Obsidian plugin/PKM Demo vault|PKM Demo Vault]]**
 
-[**Notes GPT**](https://chatgpt.com/g/g-9Xb1mRJYl-smart-connect-notes)
+### Smart Connect App
+- **[[Smart Connect app/SC App docs|Overview]]**
+- **[[Smart Connect app/Creating a Custom GPT with Smart Connect|Creating a Custom GPT]]**
+- **[[Smart Connect app/Smart Environments in Smart Connect|Smart Environments]]**
+- **[[Smart Connect app/Smart Actions in Smart Connect|Smart Actions]]**
+- **[[Smart Connect app/Settings in Smart Connect|Settings]]**
+- **[[Smart Connect app/Custom Actions|Custom Actions]]**
+- **[[Smart Connect app/Smart Connect FAQs|FAQs]]**
+- **[[Smart Connect app/Videos|Videos]]**
+
+---
+
+## Additional Resources
+- **[Blog](https://docs.smartconnections.app/Blog/)**
+	- **[[Blog/Stability vs Innovation in the Smart Ecosystem|Stability vs Innovation in the Smart Ecosystem]]**
+	- **[[Blog/Elevate Your Obsidian Experience with Smart Connections|Elevate Your Obsidian Experience with Smart Connections]]**
+	- **[[Blog/Exploring Smart Connect app v1.3|Exploring Smart Connect App v1.3]]**
+	- **[[Blog/Smart Connections & Smart Connect - Bringing AI to Your Obsidian Vault|Smart Connections & Smart Connect - Bringing AI to Your Obsidian Vault]]**
+- **[[Mission]]**
+- **[[Introduction to Smart Environments]]**
+- **[[Smart Concepts]]**
+- **[Settings](https://docs.smartconnections.app/Settings/)**
+	- **[[Settings/Smart Environment settings|Smart Environment Settings]]**
+	- **[[Settings/Smart Sources settings|Smart Sources Settings]]**
+- **[[Comparison with other tools|Comparison with Other Tools]]**
+- **[[Future developments|Future Developments]]**
+- **[[Prompt Library]]**
+- **[[Screenshot Showcase]]**
 
 ---
 
 ## Community
+- **[Public Discussion on GitHub](https://github.com/brianpetro/obsidian-smart-connections/discussions)**: Participate in discussions, ask questions, and share your experiences.
+- **[Private Community Chat](https://chat.smartconnections.app)**: Join our private community for project supporters.
 
-[**Private Community**](https://chat.smartconnections.app)
-
-[**Public Discussion on GitHub**](https://github.com/brianpetro/obsidian-smart-connections/discussions)
+---
+## Open-source
+- **[JS Brains](https://github.com/brianpetro/jsbrains)**
+- **[Obsidian Smart Connections](https://github.com/brianpetro/obsidian-smart-connections)**
+- **[Obsidian Smart Templates](https://github.com/brianpetro/obsidian-smart-templates)**
+- **[Smart Connect](https://github.com/brianpetro/smart-connect)**
+- **[JS Brains](https://github.com/brianpetro/js-brains)**
 
 ---
 
-## Open-source
+## Videos and Tutorials
+- **[Getting Started with Obsidian, Smart Connections & Smart Connect for ChatGPT](https://www.youtube.com/watch?v=niX9U8znJAo)**
+- **YouTube Playlists**
+	- **[Smart Connect App Playlist](https://www.youtube.com/playlist?list=PLqu2iXqr-g4xKGdzT68IWUhogdWIxmaCw)**
+	- **[Obsidian Smart Connections Plugin Playlist](https://www.youtube.com/playlist?list=PLqu2iXqr-g4wXYDEXTLgoEP3g5vS73hwj)**
 
-- [**JS Brains**](https://github.com/brianpetro/jsbrains)
-- [Obsidian Smart Connections](https://github.com/brianpetro/obsidian-smart-connections)
-- [Obsidian Smart Templates](https://github.com/brianpetro/obsidian-smart-templates)
-- [Smart Connect](https://github.com/brianpetro/smart-connect)
+---
 
+## Support and Contributions
+We welcome contributions from the community!
+- **[Contribute to the Documentation](https://github.com/brianpetro/Smart-Connections-Docs)**
+- **[Submit Issues or Feature Requests](https://github.com/brianpetro/obsidian-smart-connections/issues)**
+- **[[Troubleshooting]]**
 
-## Videos
-- [Getting Started with Obsidian, Smart Connections & Smart Connect for ChatGPT](https://www.youtube.com/watch?v=niX9U8znJAo)
+---
 
-### YouTube Playlists
-#### [Smart Connect app](https://www.youtube.com/watch?v=mKRWASIhrJU&list=PLqu2iXqr-g4xKGdzT68IWUhogdWIxmaCw&pp=gAQBiAQB)
-#### [Obsidian Smart Connections plugin](https://www.youtube.com/watch?v=8uBMjAoE--I&list=PLqu2iXqr-g4wXYDEXTLgoEP3g5vS73hwj&pp=gAQBiAQB)
+## Install and Download
+### Obsidian Plugin
+- **[Install Smart Connections Obsidian Plugin](obsidian://show-plugin?id=smart-connections)**
+- **[View Code on GitHub](https://github.com/brianpetro/obsidian-smart-connections)**
+### Smart Connect App
+- **[Download Smart Connect App](https://github.com/brianpetro/smart-connect#getting-started-with-smart-connect)**
 
+---
+## Contact and Follow
+- **Twitter**: [@wfhbrian](https://twitter.com/wfhbrian)
+- **GitHub**: [brianpetro](https://github.com/brianpetro)
 
-## GitHub
+---
 
-- [Obsidian Smart Connections](https://github.com/brianpetro/obsidian-smart-connections)
-- [Obsidian Smart Templates](https://github.com/brianpetro/obsidian-smart-templates)
-- [Smart Connect](https://github.com/brianpetro/smart-connect)
-- [JS Brains](https://github.com/brianpetro/js-brains)
+*Empower your note-taking and AI interactions with the Smart Ecosystem. Explore the documentation to unlock the full potential of your personal knowledge management.*
