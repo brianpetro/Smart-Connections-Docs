@@ -4,15 +4,6 @@ title: Concepts
 ## WHY
 - Making useful AI concepts accessible through "Smart Naming"
 	- An effort that contributes to the purpose of empowering individuals with AI
-## WHO (target audience)
-- General Audience
-	- no development experience required
-- Most likely target audiences
-	- [[AI-empowered individual]]
-		- [[SC App TA]]
-		- [[SC OP TA]]
-	- [[Obsidian TA]]
-	- [[PKM User]]
 ## WDLL
 - accessible nomenclature
 - reduced emphasis on tech jargon
