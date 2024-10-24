@@ -106,4 +106,4 @@ We welcome contributions from the community!
 
 ---
 
-*Empower your note-taking and AI interactions with the Smart Ecosystem. Explore the documentation to unlock the full potential of your personal knowledge management.*
+*This site was made in [Obsidian](https://obsidian.md) and created with [Quartz](https://quartz.jzhao.xyz/).*
