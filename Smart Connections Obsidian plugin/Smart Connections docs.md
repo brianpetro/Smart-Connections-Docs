@@ -1,7 +1,6 @@
 ---
 title: Overview
 ---
-### Purpose
 A plugin for the Obsidian note-taking application that leverages the Smart Environment to enhance note management and discovery.
 ### Key Features
 - **Smart Connections View**: Displays relevant connections between notes using AI embeddings, helping you discover relationships within your data.

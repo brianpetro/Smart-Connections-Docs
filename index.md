@@ -9,8 +9,8 @@ title: Smart Ecosystem Documentation
 The **Smart Ecosystem** is a suite of open-source tools designed to integrate AI capabilities into your personal knowledge management workflows, with a focus on privacy and personalization. Our mission is to empower individuals by providing tools that leverage AI while keeping your data secure and under your control.
 
 Key components of the Smart Ecosystem include:
-- **[[Smart Connections Obsidian plugin|Smart Connections Obsidian Plugin]]**: Enhance your Obsidian note-taking with AI-powered connections and insights.
-- **[[Smart Connect app|Smart Connect App]]**: Bridge ChatGPT with your local notes for advanced AI interactions without compromising your data privacy.
+- **[[Smart Connections docs|Smart Connections Obsidian Plugin]]**: Enhance your Obsidian note-taking with AI-powered connections and insights.
+- **[[SC App docs|Smart Connect App]]**: Bridge ChatGPT with your local notes for advanced AI interactions without compromising your data privacy.
 
 ---
 
@@ -98,11 +98,6 @@ We welcome contributions from the community!
 - **[View Code on GitHub](https://github.com/brianpetro/obsidian-smart-connections)**
 ### Smart Connect App
 - **[Download Smart Connect App](https://github.com/brianpetro/smart-connect#getting-started-with-smart-connect)**
-
----
-## Contact and Follow
-- **Twitter**: [@wfhbrian](https://twitter.com/wfhbrian)
-- **GitHub**: [brianpetro](https://github.com/brianpetro)
 
 ---
 
