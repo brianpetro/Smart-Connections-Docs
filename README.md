@@ -1,5 +1,7 @@
 # [docs.smartconnections.app](https://docs.smartconnections.app)
 
+**Stay Updated:** To keep up with changes and updates to the documentation, please "watch" this repository on GitHub.
+
 This is the content that is published to [docs.smartconnections.app](https://docs.smartconnections.app).
 
 This repo is made public so that the community can contribute to the documentation for [Smart Connect](https://github.com/brianpetro/smart-connect) and the Obsidian [Smart Connections plugin](https://github.com/brianpetro/obsidian-smart-connections).
