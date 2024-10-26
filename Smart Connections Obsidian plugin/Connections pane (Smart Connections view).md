@@ -1,3 +1,6 @@
+---
+title: Connections pane
+---
 ## why
 Linking relevant notes is a best practice in most personal knowledge management (PKM) systems. Unfortunately, this is a time consuming process and linking to all relevant content has many undesired side effects.
 
