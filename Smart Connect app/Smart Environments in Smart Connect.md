@@ -22,16 +22,22 @@ Smart Environments are a core component of the Smart Connect app, designed to pr
 
 ## Smart Environment settings
 See [[Smart Environment settings]] for settings included in both Smart Connect app and the Obsidian Smart Connections plugin.
+
 The Smart Environment settings below are specific to Smart Connect app: 
-##### **Obsidian Vault Toggle**
-- The **Obsidian Vault Toggle** indicates whether the environment is linked with an Obsidian vault.
-	- **Activating the Toggle**:
-		- Toggle it **On** if you're using Obsidian.
-		- May be toggled on by default if the Smart Connections Obsidian plugin is running.
-	- **Benefits**:
-		- Synchronizes settings between Smart Connect and Obsidian.
-		- Shares the same Smart Environment configuration file.
-		- Ensures compatibility with Obsidian-specific features.
+##### Obsidian Vault Toggle
+The **Obsidian Vault Toggle** indicates whether the environment is linked with an Obsidian vault.
+- **Activating the Toggle**:
+	- Toggle it **On** if you're using Obsidian.
+	- May be toggled on by default if the Smart Connections Obsidian plugin is running.
+- **Benefits**:
+	- Synchronizes settings between Smart Connect and Obsidian.
+	- Shares the same Smart Environment configuration file.
+	- Ensures compatibility with Obsidian-specific features.
+
+##### Watch Changes
+Triggers re-embedding when files are changed.
+
+![[Pasted image 20241026173609.png]]
 
 ## Smart Sources settings
 See [[Smart Sources settings]] to learn more about settings for sources and blocks.
