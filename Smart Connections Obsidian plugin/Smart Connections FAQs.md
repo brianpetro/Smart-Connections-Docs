@@ -1,6 +1,10 @@
 ---
 title: FAQs
 ---
+###### +Documenting SC
+
+- SC is designed for "reasonable" individual usage. While it should work, an increase in issues should be expected with large datasets (>10k notes)
+
 ### Can I use Smart Connections without Smart Connect?
 Yes, Smart Connections can be used independently within Obsidian. Smart Connect adds additional functionality by integrating with ChatGPT.
 
