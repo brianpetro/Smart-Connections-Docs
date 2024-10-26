@@ -37,7 +37,7 @@ The **Obsidian Vault Toggle** indicates whether the environment is linked with a
 ##### Watch Changes
 Triggers re-embedding when files are changed.
 
-![[Pasted image 20241026173609.png]]
+![[Smart-Connect-app-env-settings-v137.png]]
 
 ## Smart Sources settings
 See [[Smart Sources settings]] to learn more about settings for sources and blocks.
