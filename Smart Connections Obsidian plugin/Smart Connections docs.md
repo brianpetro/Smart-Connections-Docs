@@ -2,6 +2,11 @@
 title: Overview
 ---
 A plugin for the Obsidian note-taking application that leverages the Smart Environment to enhance note management and discovery.
+
+**Purpose**: The Smart Connections project aims to develop a system that enhances users' ability to manage and navigate their personal knowledge bases. By leveraging AI, it suggests relevant connections between notes, enabling users to create smart, meaningful links within their information.
+
+**Vision**: To empower individuals by providing tools that improve communication, productivity, and personal development. The Smart Connections project seeks to make knowledge management more efficient and accessible, unlocking hidden capabilities and helping users achieve their full potential.
+
 ### Key Features
 - **Smart Connections View**: Displays relevant connections between notes using AI embeddings, helping you discover relationships within your data.
 - **Smart Chat (Upcoming as Separate Plugin)**: allows conversational interaction with your notes directly within Obsidian.
@@ -30,3 +35,5 @@ A plugin for the Obsidian note-taking application that leverages the Smart Envir
 - To open the Search View
 	- click the search icon in the top-right corner of the Connections View
 
+
+The Smart Connections project is dedicated to creating an AI-enhanced tool that empowers users by improving how they manage and connect their knowledge. By upholding values like empowerment and accessibility, the project seeks to eliminate communication barriers, reduce inequality, and help individuals realize their full potential through smarter, more connected personal knowledge management.
