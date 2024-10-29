@@ -1,5 +1,6 @@
 ---
 title: Connections pane
+slug: connections-pane
 ---
 ![[Connections pane screenshot 2024-10-28.png]]
 ## why
