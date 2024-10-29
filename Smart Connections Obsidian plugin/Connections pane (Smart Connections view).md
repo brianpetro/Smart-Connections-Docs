@@ -1,6 +1,6 @@
 ---
 title: Connections pane
-slug: connections-pane
+permalink: connections-pane
 ---
 ![[Connections pane screenshot 2024-10-28.png]]
 ## why
@@ -19,7 +19,7 @@ The Connections pane in Smart Connections solves these issues through the use of
 ![[smart-connections-pane-demo.gif]]
 ## usage
 Embeddings are created automagically using a local model when the Obsidian Smart Connections plugin is installed.
-The Connections pane can be opened from the command palette or <svg style="zoom:1.7;" viewBox="0 0 100 100" class="svg-icon smart-connections"><path d="M50,20 L80,40 L80,60 L50,100" stroke="currentColor" stroke-width="4" fill="none"></path>
+The Connections pane can be opened from the command palette or <svg style="zoom:1.7;max-width:1.5rem;" viewBox="0 0 100 100" class="svg-icon smart-connections"><path d="M50,20 L80,40 L80,60 L50,100" stroke="currentColor" stroke-width="4" fill="none"></path>
     <path d="M30,50 L55,70" stroke="currentColor" stroke-width="5" fill="none"></path>
     <circle cx="50" cy="20" r="9" fill="currentColor"></circle>
     <circle cx="80" cy="40" r="9" fill="currentColor"></circle>
