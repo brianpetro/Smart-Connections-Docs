@@ -33,6 +33,7 @@ Find answers to common questions about using Smart Connect. Learn about data sec
 ### [[Videos|Tutorial Videos]]
 Access a collection of tutorial and informational videos to help you get started with Smart Connect, explore updates, and understand how to bridge ChatGPT with your local notes.
 
+
 ---
 
 *Empower your note-taking and AI interactions with the Smart Connect App. Explore the documentation to unlock the full potential of your Smart Environment.*
