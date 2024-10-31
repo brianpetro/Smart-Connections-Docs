@@ -1,3 +1,7 @@
+---
+title: Community Lean Coffee
+---
+
 Our Lean Coffee meetings are an open, collaborative space where members of the Smart Connections community come together to share ideas, discuss topics of interest, and build connections. Held virtually on the first and third Friday of each month, these meetings provide an informal yet structured environment for both technical and non-technical discussions.
 
 ## What Are Lean Coffee Meetings?
