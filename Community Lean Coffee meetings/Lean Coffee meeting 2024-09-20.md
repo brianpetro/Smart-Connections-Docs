@@ -1,4 +1,4 @@
-
+![](https://youtu.be/-4g5wKoA0R8)
 ## notes
 - [[Stability vs Innovation in the Smart Ecosystem]]
 ## transcript

@@ -1,4 +1,4 @@
-
+![](https://youtu.be/3SXtJS7oiFQ)
 ## 🌴 Brian's notes
 ### Search in Smart Chat and Roadmap
 I've been working on enhancing the Smart Chat functionality within Obsidian. Currently, the existing version of Smart Chat is limited to single-step interactions, and it's somewhat outdated. I'm in the process of rewriting it to allow for multi-step processes. This means that in the future, the AI will be capable of performing more complex tasks, like exploring through folders, analyzing multiple files, and providing more comprehensive insights.
