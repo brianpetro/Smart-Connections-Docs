@@ -1,6 +1,6 @@
 ---
 title: "Smart Connect Update: Let's Dive into Community Actions and Custom GPTs"
-ogImage: https://docs.smartconnections.app/assets/sc-app-update-2024-10-31.jpg
+ogImage: assets/sc-app-update-2024-10-31.jpg
 ---
 ![](https://www.youtube.com/watch?v=GCn3u2F2tZM)
 
@@ -42,4 +42,5 @@ The cool thing about Community Actions is how customizable they are. Since they�
 I’ll keep updating the public repository with more action examples and documentation on creating your own actions. But if you’re already familiar with JavaScript, I think you’ll find it easy to start adding in custom actions.
 
 ### Wrapping Up
+
 So, that’s a quick look at Community Actions in Smart Connect. I hope you find them as useful as I do! Whether you’re looking to automate your note-taking process, curate tweets, or manage multiple workflows all in one place, Community Actions is here to give you that extra flexibility. And as always, I’d love to hear how you’re using it. Drop a comment, reach out, or contribute your own actions to the public repository—I'm all ears! Thanks for checking it out.
