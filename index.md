@@ -37,7 +37,7 @@ Key components of the Smart Ecosystem include:
 - **[[Smart Connect app/Smart Environments in Smart Connect|Smart Environments]]**
 - **[[Smart Connect app/Smart Actions in Smart Connect|Smart Actions]]**
 - **[[Smart Connect app/Settings in Smart Connect|Settings]]**
-- **[[Smart Connect app/Custom Actions|Custom Actions]]**
+- **[[Custom Actions and Community Actions|Custom Actions and Community Actions]]**
 - **[[Smart Connect app/Smart Connect FAQs|FAQs]]**
 - **[[Videos|Videos]]**
 

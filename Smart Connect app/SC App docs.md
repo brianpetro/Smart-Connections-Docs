@@ -26,7 +26,7 @@ Configure global preferences, security options, and other essential settings wit
 - **Manage your account and advanced settings.**
 ### [[Creating a Custom GPT with Smart Connect|Creating a Custom GPT with Smart Connect]]
 Learn how to set up a personalized GPT assistant that interacts with your Obsidian vault using the Smart Connect plugin. This guide covers everything from preparation to testing your custom GPT.
-### [[Custom Actions|Custom Actions]]
+### [[Custom Actions and Community Actions|Custom Actions and Community Actions]]
 Execute local functions effortlessly with Custom Actions. Bypass server hosting complexities and streamline your development workflow to boost productivity.
 ### [[Smart Connect FAQs|FAQs]]
 Find answers to common questions about using Smart Connect. Learn about data security, subscription requirements, and tips for optimizing your Smart Connect experience.
