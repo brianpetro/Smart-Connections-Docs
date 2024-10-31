@@ -1,4 +1,6 @@
 
+
+## transcript
 ##### Matthew Oatts
 I've spent a bunch of time with undergraduate students at Georgia Tech who I've started in a mentoring program around. And undergrads in schools these days are just still as eager beaver as they were when I was in school. Just always wanting more and more time and idea. So I see somebody here, Fran, I don't know that we've met. Maybe we have or not.
 

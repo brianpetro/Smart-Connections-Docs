@@ -1,3 +1,7 @@
+
+## notes
+- [[Stability vs Innovation in the Smart Ecosystem]]
+## transcript
 ##### Matthew Oatts
 Of a church, and I was a leader in the church when the pandemic happened. And so I was, like, the youngest person, and I was the one that had figure out how we're gonna do, like, virtual services and all this kind of stuff. And at that time, you know, teaching a bunch of people who could barely know how to access their, you know, email, how to join a Zoom meeting, and then what to actually do on a Zoom meeting and all that stuff was a whole experience. But one of the things that we very quickly learned that we needed to do is to have everybody always be on mute when they join. And we didn't do a waiting room, but we definitely had, like, a moderator who was, like, ready to kick people out, which is very weird in a religious situation, to be like, oh, who's going to get punched out of the room next?
 
