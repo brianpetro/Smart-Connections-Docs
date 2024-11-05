@@ -2,4 +2,4 @@
 	- Community contributed examples
 		- same as [contributing to docs](https://github.com/brianpetro/Smart-Connections-Docs)
 	- Documenting alignment prompt examples
-		- requested during Lean Coffee September '24 (Stefano/Matthew)
+		- requested during [[Community Lean Coffee 2024-09-06]]
