@@ -1,5 +1,6 @@
 ---
 title: Commands
+permalink: commands
 ---
 Commands in the Obsidian Smart Connections plugin are accessed using the Obsidian Command palette.
 
