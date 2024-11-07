@@ -17,6 +17,7 @@ Community Actions are user-contributed actions that can be installed and used wi
 - **Community Actions:** Created by other users and shared publicly, available for anyone to install and use.
 
 ### Installing Community Actions
+![[sc-app community actions screenshot.png]]
 #### Finding Community Actions
 1. **Access Community Actions:**
     - In the Smart Connect app, navigate to **Smart Actions**.
