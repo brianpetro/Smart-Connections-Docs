@@ -5,7 +5,7 @@ title: Quick Start Guide
 	- Notes are imported using a local embedding model as soon as you enable the plugin
 	- This process often takes about a minute for one hundred notes
 		- may vary based on notes & computer
-- Open the Smart Connections view (<svg viewBox="0 0 100 100" class="svg-icon smart-connections"><path d="M50,20 L80,40 L80,60 L50,100" stroke="currentColor" stroke-width="4" fill="none"></path>
+- Open the Smart Connections view (<svg style="zoom:1.7;max-width:1.5rem;" viewBox="0 0 100 100" class="svg-icon smart-connections"><path d="M50,20 L80,40 L80,60 L50,100" stroke="currentColor" stroke-width="4" fill="none"></path>
     <path d="M30,50 L55,70" stroke="currentColor" stroke-width="5" fill="none"></path>
     <circle cx="50" cy="20" r="9" fill="currentColor"></circle>
     <circle cx="80" cy="40" r="9" fill="currentColor"></circle>
@@ -32,3 +32,20 @@ title: Quick Start Guide
 2. Select a chat model platform.
 3. Add an API key for the chat model platform.
 4. Select a chat model from the dropdown.
+
+
+## overview diagram
+```mermaid
+graph TD
+    A[Obsidian] --> B[Smart Connections Plugin]
+    B --> C[Local Embedding Model]
+    B --> D[Smart Chat Plugin]
+    D --> E[ChatGPT Integration]
+    B --> F[Connections Pane]
+    B --> G[Lookup Pane]
+    B --> H[Settings]
+    F --> I[Display Relevant Connections]
+    G --> J[Semantic Search]
+    H --> K[Configure Embedding Models]
+    H --> L[Set Notification Preferences]
+```

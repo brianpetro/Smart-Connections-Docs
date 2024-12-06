@@ -36,3 +36,14 @@ Filters are used to refine the results in the connections pane. The filter setti
 - specific keywords
 - inlinks
 - outlinks
+
+## how it works diagram
+```mermaid
+flowchart
+    A[User Creates/Edits Note] --> B[Smart Connections Plugin]
+    B --> C[Local Embedding Model]
+    C --> D[Generate Embedding]
+    D --> E[Store in .smart-env/multi/]
+    E --> F[Connections Pane]
+    F --> G[Display Related Notes]
+```
