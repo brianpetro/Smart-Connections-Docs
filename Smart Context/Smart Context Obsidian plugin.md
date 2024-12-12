@@ -1,5 +1,6 @@
 ---
 title: Obsidian plugin
+slug: obsidian-plugin
 ---
 [Install Smart Context](https://obsidian.md/plugins?id=smart-context) in Obsidian.
 
