@@ -1,6 +1,7 @@
 ---
 sync external: ../integration-testing/smart-connections/smart_chat.demo.md
 image: assets/screenshots/smart_chat.gif
+permalink: smart-chat
 ---
 # Smart Chat: Chat Smarter: AI-Powered Conversations in Obsidian
 ![[assets/screenshots/smart_chat.gif]]

@@ -29,7 +29,7 @@ Results in the Connections pane may be expanded or collapsed individually. There
 ## Features
 Each has a dedicated document detailing setup steps, the demonstration flow, and expected outcomes.
 
-- [[Getting started]]
+- [[++Ref/docs.sc/Smart Connections/Getting started]]
 	- Primary Feature Demonstrated: Plugin installation, initial indexing, and verifying ribbon/commands.  
 		- Installation, first-run experience, basic verification ("Embedding complete").  
 	- Prerequisite: Fresh vault or willingness to overwrite an existing one.  
