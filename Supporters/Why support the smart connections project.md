@@ -1,0 +1,1 @@
+Because supporting enables me to spend more time focused on creating tools that empower individuals like you, and reduces the amount of time, I have to spend designing ways to fund the project while maintaining alignment with the mission.

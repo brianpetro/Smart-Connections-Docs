@@ -15,21 +15,21 @@ Key components of the Smart Ecosystem include:
 ---
 
 ## Get Started
-- **[[Smart Connections Obsidian plugin/Smart Connections Quick Start Guide|Quick Start Guide for Smart Connections Obsidian Plugin]]**
+- **[[Smart Connections Quick Start Guide|Quick Start Guide for Smart Connections Obsidian Plugin]]**
 - **[[Smart Connect app/Creating a Custom GPT with Smart Connect|Creating a Custom GPT with Smart Connect]]**
 - **[[Workflows]]**: Explore practical workflows to integrate AI into your daily tasks.
 
 ---
 ## Documentation
 ### Smart Connections Obsidian Plugin
-- **[[Smart Connections Obsidian plugin/Smart Connections docs|Overview]]**
-- **[[Smart Connections Obsidian plugin/Smart Connections Quick Start Guide|Quick Start Guide]]**
-- **[[Smart Connections Obsidian plugin/Smart Connections FAQs|FAQs]]**
+- **[[Smart Connections docs|Overview]]**
+- **[[Smart Connections Quick Start Guide|Quick Start Guide]]**
+- **[[Smart Connections FAQs|FAQs]]**
 - **[[Troubleshooting]]**
-- **[[Smart Connections Obsidian plugin/Help debug Smart Connections issues|Help Debug Issues]]**
-- **[[Smart Connections Obsidian plugin/Inspect blocks created for a note|Inspect Blocks Created for a Note]]**
-- **[[Smart Connections Obsidian plugin/Manual Re-Embedding for Specific Notes|Manual Re-Embedding for Specific Notes]]**
-- **[[Smart Connections Obsidian plugin/PKM Demo vault|PKM Demo Vault]]**
+- **[[Help debug Smart Connections issues|Help Debug Issues]]**
+- **[[Inspect blocks created for a note|Inspect Blocks Created for a Note]]**
+- **[[Smart Connections FAQs|Smart Connections FAQs]]**
+- **[[PKM Demo vault|PKM Demo Vault]]**
 
 ### Smart Connect App
 - **[[Smart Connect app/SC App docs|Overview]]**
