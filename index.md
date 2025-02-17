@@ -16,7 +16,7 @@ Key components of the Smart Ecosystem include:
 
 ## Get Started
 - **[[Smart Connections Quick Start Guide|Quick Start Guide for Smart Connections Obsidian Plugin]]**
-- **[[Smart Connect app/Creating a Custom GPT with Smart Connect|Creating a Custom GPT with Smart Connect]]**
+- **[[Creating a Custom GPT with Smart Connect|Creating a Custom GPT with Smart Connect]]**
 - **[[Workflows]]**: Explore practical workflows to integrate AI into your daily tasks.
 
 ---
@@ -25,20 +25,20 @@ Key components of the Smart Ecosystem include:
 - **[[Smart Connections docs|Overview]]**
 - **[[Smart Connections Quick Start Guide|Quick Start Guide]]**
 - **[[Smart Connections FAQs|FAQs]]**
-- **[[Troubleshooting]]**
+- **[[++Ref/docs.sc/Troubleshooting]]**
 - **[[Help debug Smart Connections issues|Help Debug Issues]]**
 - **[[Inspect blocks created for a note|Inspect Blocks Created for a Note]]**
 - **[[Smart Connections FAQs|Smart Connections FAQs]]**
 - **[[PKM Demo vault|PKM Demo Vault]]**
 
 ### Smart Connect App
-- **[[Smart Connect app/SC App docs|Overview]]**
-- **[[Smart Connect app/Creating a Custom GPT with Smart Connect|Creating a Custom GPT]]**
-- **[[Smart Connect app/Smart Environments in Smart Connect|Smart Environments]]**
-- **[[Smart Connect app/Smart Actions in Smart Connect|Smart Actions]]**
-- **[[Smart Connect app/Settings in Smart Connect|Settings]]**
+- **[[SC App docs|Overview]]**
+- **[[Creating a Custom GPT with Smart Connect|Creating a Custom GPT]]**
+- **[[Smart Environments in Smart Connect|Smart Environments]]**
+- **[[Smart Actions in Smart Connect|Smart Actions]]**
+- **[[Settings in Smart Connect|Settings]]**
 - **[[Custom Actions and Community Actions|Custom Actions and Community Actions]]**
-- **[[Smart Connect app/Smart Connect FAQs|FAQs]]**
+- **[[Smart Connect FAQs|FAQs]]**
 - **[[Videos|Videos]]**
 
 ---
@@ -88,7 +88,7 @@ Key components of the Smart Ecosystem include:
 We welcome contributions from the community!
 - **[Contribute to the Documentation](https://github.com/brianpetro/Smart-Connections-Docs)**
 - **[Submit Issues or Feature Requests](https://github.com/brianpetro/obsidian-smart-connections/issues)**
-- **[[Troubleshooting]]**
+- **[[++Ref/docs.sc/Troubleshooting]]**
 
 ---
 
